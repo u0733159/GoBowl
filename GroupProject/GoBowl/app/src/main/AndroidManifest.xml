@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.gatech.seclass.gobowl">
+
+    <application
+        android:name=".BowlingApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FrontScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CustomerActivity" />
+        <activity android:name=".ManagerActivity" />
+        <activity android:name=".RequestLaneActivity" />
+        <activity android:name=".AddCustomerActivity" />
+        <activity android:name=".EditCustomerActivity" />
+        <activity android:name=".ShowCustomersActivity" />
+        <activity android:name=".RequestLaneDone" />
+        <activity android:name=".CheckOutActivity" />
+        <activity android:name=".ScoreHistoryActivity" />
+        <activity android:name=".PayBillActivity" />
+        <activity android:name=".DebugActivity" />
+        <activity android:name=".ScoreActivity" />
+        <activity android:name=".ShowHistoricScoresActivity" />
+        <activity android:name=".PrintCardActivity" />
+        <activity android:name=".YearlyEventActivity"></activity>
+        <activity android:name=".HelpActivity"></activity>
+    </application>
+
+</manifest>

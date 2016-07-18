@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GoBowling</string>
+    <string name="title_activity_customer">CustomerActivity</string>
+    <string name="title_activity_manager">ManagerActivity</string>
+    <string name="request_lane_button">Request Lane</string>
+    <string name="customer_name">Name:</string>
+    <string name="check_out_button">Check Out</string>
+    <string name="customer_id">Customer ID:</string>
+    <string name="dummy_name">John Smith</string>
+    <string name="customer_page">Customer Portal</string>
+    <string name="dummy_id">7AD23E</string>
+    <string name="scan_card">Scan Card</string>
+    <string name="historic_scores">Historic Scores</string>
+    <string name="submit">Submit</string>
+    <string name="help_text">Welcome. This prototype was designed with mock external libraries but these are
+        disabled at this stage. If you would like to copy the data from the database into the
+        system utilities so that the system utilities return real data, please press the button below.</string>
+    <string name="scan_the_card_or_eter_cutomer_id">Scan the card or eter cutomer ID</string>
+</resources>
